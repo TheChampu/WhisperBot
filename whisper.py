@@ -4,12 +4,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup, InlineKeyboardButton, Message
 )
 import random
-
-# Your credentials
-API_ID = 29893020  # Your API ID
-API_HASH = "28e79037f0b334ef0503466c53f08af5"  # Your API Hash
-BOT_TOKEN = "123456789:ABCDEFGHIJKlMNabcdef_edfrghijkl"  # Your Bot Token
-
+from config import API_ID, API_HASH, BOT_TOKEN
 # List of random image URLs
 RANDOM_IMAGES = [
 "https://files.catbox.moe/enzetg.jpg",
