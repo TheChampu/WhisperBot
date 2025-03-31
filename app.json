@@ -1,0 +1,16 @@
+{
+  "name": "Whisper Bot",
+  "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡɪᴛʜ ᴡʜɪsᴘᴇʀ ᴍᴇssᴀɢᴇ",
+  "repository": "https://github.com/TheChampu/WhisperBot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ʜᴇʀᴇ",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
